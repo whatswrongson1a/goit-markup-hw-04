@@ -29,7 +29,7 @@ img {
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -37,11 +37,22 @@ img {
     width: 1158px;
     margin: 0 auto; 
     padding: 0 15px;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    width: 1158px;
+    height: 72px;
+    flex-direction: row;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
+    padding: 0%;
 }
 
 .lgtp {
@@ -75,12 +86,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
-    padding: 24px 0;
 }
 
 .header-li {
     display: flex;
     gap: 40px;
+    list-style: none; 
 }
 
 
@@ -95,7 +106,8 @@ img {
 
 .contacts-list {
     display: flex;
-    gap: 40px
+    gap: 40px;
+    list-style: none; 
 }
 
 
@@ -118,16 +130,18 @@ img {
     color: #FFFFFF;
     background-color: #2E2F42;
     padding: 188px 0;
+    text-align: center;
 }
 
 .hero-text {
     text-align: center;
+    justify-content: center;
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-
+    margin: 0 auto;
 }
 
 .btn {
@@ -146,6 +160,7 @@ img {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    margin-top: 48px;
 }
 
 .btn:hover,
@@ -199,35 +214,58 @@ img {
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
+    display: flex;
 }
 
 .team-nav {
     display: flex;
-    gap: 24px;
+    gap: 32px;
+    height: 380px;
+}
+
+.team-photo {
+    mix-blend-mode: normal;
 }
 
 .team-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    align-self: center;
 }
 
 .team-names {
     text-align: center;
     margin-bottom: 8px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 
 .team-paragraf {
     text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .team-container {
     padding: 32px 0;
-
+    width: 100%;
+    text-align: center;
+    height: 732px !important;
 }
 
 .team-list {
@@ -239,6 +277,12 @@ img {
     color: #2e2f42;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1248px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio {
@@ -307,6 +351,8 @@ img {
     margin-bottom: 16px;
     max-width: 71px;
     display: inline-block;
+    padding: 0;
+    margin-left: 156px;
 }
 
 .logotype_spn {
@@ -318,6 +364,13 @@ img {
     text-transform: uppercase;
     color: #f4f4fd;
     text-decoration: none;
+    padding: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 footer {
