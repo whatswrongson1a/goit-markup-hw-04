@@ -166,10 +166,13 @@ img {
 }
 
 .hero {
-    background-image: url("../images/hero.jpg"); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero.jpg");
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
     text-align: center;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 
 .hero-text {
@@ -200,6 +203,7 @@ img {
     height: 56px;
     border-radius: 4px;
     margin-top: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
