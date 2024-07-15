@@ -326,6 +326,7 @@ color: #434455;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    background-color: #4D5AE5;
 }
 
 .portfolio-ul {
@@ -343,6 +344,16 @@ color: #434455;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+
+.portfolio-photo {
+    cursor: pointer;
+}
+
+
+.portfolio-li:hover .portfolio-photo {
+    opacity: 0;
+    background-color: #4D5AE5;
 }
 
 .portfolio-h {
