@@ -474,6 +474,8 @@ color: #434455;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-ul-item-link:hover,
@@ -520,7 +522,7 @@ color: #434455;
 
 .footer-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 16px;
     align-items: baseline;
 }
@@ -530,7 +532,7 @@ color: #434455;
 
 }
 
-.footer-paragraf-2 {
+.footer-paragraf-sm {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -549,4 +551,8 @@ footer {
     color: #F4F4FD;
     max-width: 264px;
     margin-left: 156px;
+}
+
+.icon-footer {
+    fill: #f4f4fd;
 }
