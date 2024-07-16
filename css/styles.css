@@ -476,7 +476,10 @@ color: #434455;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-ul-item-link:hover,
+.footer-ul-item-link:hover {
+    background-color: #31d0aa;
+}
+
 .footer-ul-item-link:focus {
     background-color: #31d0aa;
 }
