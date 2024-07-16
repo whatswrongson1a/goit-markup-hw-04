@@ -101,6 +101,7 @@ img {
     bottom: -1px;
     border-radius: 2px;
     height: 4px;
+    background-color: #404bbf;
 }
 
 .header-li {
@@ -476,8 +477,7 @@ color: #434455;
 }
 
 .footer-ul-item-link:hover,
-.footer-ul-item-link:focus,
-.footer-ul-item-link:active {
+.footer-ul-item-link:focus {
     background-color: #31d0aa;
 }
 
