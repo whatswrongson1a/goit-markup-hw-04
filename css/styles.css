@@ -216,6 +216,21 @@ img {
 
 }
 
+.features-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
+.icon-ftrs {
+    fill: #2E2F42;
+}
+
 .ftrs-nav {
     display: flex;
     gap: 24px;
@@ -327,12 +342,10 @@ color: #434455;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.icos-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.icon {
+    fill: #f4f4fd;
 }
+
 
 .socials-list {
     display: flex;
