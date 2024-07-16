@@ -48,6 +48,7 @@ img {
     width: 100%;
     height: 72px;
     flex-direction: row;
+    align-items: center;
 }
 
 .nav-list {
@@ -307,7 +308,6 @@ color: #434455;
     padding: 32px 0;
     width: 100%;
     text-align: center;
-    height: 732px !important;
 }
 
 .team-list {
@@ -320,12 +320,43 @@ color: #434455;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     width: 264px;
-    height: 380px;
+    height: 428px;
     left: 156px;
     top: 1248px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 264px;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+}
+
+.icon-background {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+.icon-background:hover {
+    background-color: #404bbf;
+}
+
+
+  .icon {
+    fill: #FFFFFF;
+  }
 
 .portfolio {
     padding-top: 120px; 
