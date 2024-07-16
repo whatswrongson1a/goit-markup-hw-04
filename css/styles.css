@@ -327,18 +327,18 @@ color: #434455;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.icons-container {
+.icos-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 0%; 
 }
 
 .socials-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 12px;
 }
 
 .social-list-item {
