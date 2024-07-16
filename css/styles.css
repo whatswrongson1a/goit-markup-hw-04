@@ -83,7 +83,7 @@ img {
 
 .header-list {
     font-weight: 500;
-    color: #2e2f42;
+    color: #404bbf;
     font-size: 16px;
     text-decoration: none;
     line-height: 1.5;
@@ -100,9 +100,7 @@ img {
     left: 0;
     bottom: -1px;
     border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 4px;
-    background-color: #404bbf;
 }
 
 .header-li {
@@ -115,20 +113,20 @@ img {
 .header-list:hover, 
 .header-list:focus {
     color: #404bbf;
-    transition: all 0.3s ease-in-out;
 }
 
 .header-list:hover::after,
 .address-list:hover::after
  {
-    bottom: -26px;
+    bottom: -28px;
     height: 4px;
     content: '';
     position: absolute;
     left: 0;
     right: 0;
+    width: 100%;
     border-radius: 2px;
-    transition: all 0.3s ease-in-out;
+    background-color: #404bbf;
 }
 
 .address {
@@ -141,7 +139,6 @@ img {
     list-style: none;
     align-items: center; 
     padding-left: 332px;
-    padding-top: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -368,7 +365,7 @@ color: #434455;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
 .socials-list-link:hover,
@@ -479,7 +476,8 @@ color: #434455;
 }
 
 .footer-ul-item-link:hover,
-.footer-ul-item-link:focus {
+.footer-ul-item-link:focus,
+.footer-ul-item-link:active {
     background-color: #31d0aa;
 }
 
